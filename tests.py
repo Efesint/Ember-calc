@@ -10,7 +10,7 @@ def test_worst():
         "mood_neg": 10,
     }
     percent, _ = calc_risk(scores)
-    print("worst:", percent)
+    print("Worst:", percent)
 
 def test_best():
     scores = {
@@ -21,7 +21,7 @@ def test_best():
         "mood_pos": 10,
         "mood_neg": 0,
     }
-    ercent, _ = calc_risk(scores)
+    percent, _ = calc_risk(scores)
     print("Best:", percent)
 
 def test_mid():

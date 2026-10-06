@@ -16,7 +16,7 @@ def main():
 
     scores = {}
     scores["workload"] = ask("Рабочая нагрузка")
-    scores["resilience"] = ask("Устойччивость")
+    scores["resilience"] = ask("Устойчивость")
     scores["sleep_problems"] = ask("Проблемы со сном")
     scores["social_contact"] = ask("Соц влияние")
     scores["mood_pos"] = ask("Позитивные эмоции")
@@ -36,7 +36,7 @@ def main():
         print(" " + name + ": " + str(round(val, 3)))
 
     print()
-    print("Это не диагноззз")
+    print("Это не диагноз!")
 
 if __name__ == "__main__":
     while True:

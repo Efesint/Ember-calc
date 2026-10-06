@@ -19,8 +19,8 @@ def calc_risk(scores):
     return percent, details
 
 def risk_lev(percent):
-    if percent < 30:
+    if percent < 35:
         return "Низкий", "Состояние стабильно"
-    if percent < 55:
+    if percent < 60:
         return "Умеренный", "Обрати внимание на сон и нагрузку"
     return "Высокий", "Стоит отдохнуть"
