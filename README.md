@@ -55,8 +55,7 @@
 
 ## Структура проекта
 ~~~
-ember-calc/
-│
+Ember-calc/
 ├── main.py
 ├── calculator.py
 ├── factors.py
